@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Qudusy quiz webapp</h1>
+        <div id="question-container">
+            <p id="question">Question 1 goes here</p>
+            <input type="radio" name="answer" id="optionA" value="0">
+            <label for="optionA">A) Option A</label><br>
+            <input type="radio" name="answer" id="optionB" value="1">
+            <label for="optionB">B) Option B</label><br>
+            <input type="radio" name="answer" id="optionC" value="2">
+            <label for="optionC">C) Option C</label><br>
+            <input type="radio" name="answer" id="optionD" value="3">
+            <label for="optionD">D) Option D</label><br>
+        </div>
+        <button id="next-button">Next</button>
+        <button id="submit-button">Submit</button>
+    </div>
+
+    <div id="result-container">
+        <h2>Your Score:</h2>
+        <p id="score">0</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
